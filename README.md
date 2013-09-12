@@ -5,7 +5,6 @@ This a simple application with two gevent loops
 * loop_log - print a current datestamp every second
 * loop_database - execute `select pg_sleep(5);` query every second
 
-
 Usage
 =====
 
@@ -22,7 +21,6 @@ Usage
 	  -h, --help           show this help message and exit
 	  --enable-psycogreen  Enable psycogreen
 
-
 Results
 =======
 
@@ -35,6 +33,7 @@ Results
 	Database: OK
 	Log: 2013-09-12 23:41:12.353856
 	^C
+
 
 	$ python -m pg_async.test gigs:123@127.0.0.1:5432/gigs --enable-psycogreen
 	Log: 2013-09-12 23:41:47.521231
