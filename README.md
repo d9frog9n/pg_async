@@ -33,8 +33,6 @@ Results
 	Database: OK
 	Log: 2013-09-12 23:41:12.353856
 	^C
-
-
 	$ python -m pg_async.test gigs:123@127.0.0.1:5432/gigs --enable-psycogreen
 	Log: 2013-09-12 23:41:47.521231
 	Log: 2013-09-12 23:41:48.526269
